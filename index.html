@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Places</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body class="body">
+    <header class="header">
+        <h1>My Favorite Places</h1>
+    </header>
+    <main>
+        <!-- Form Section -->
+        <section aria-labelledby="add-place-section">
+            <h2 id="add-place-section">Add a New Place</h2>
+            <form id="place-form">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required aria-label="Location">
+                
+                <label for="landmarks">Landmarks:</label>
+                <input type="text" id="landmarks" name="landmarks" required aria-label="Landmarks">
+                
+                <label for="timeOfYear">Time of Year:</label>
+                <input type="text" id="timeOfYear" name="timeOfYear" required aria-label="Time of Year">
+                
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" aria-label="Notes"></textarea>
+                
+                <button type="submit" aria-label="Add Place">Add Place</button>
+            </form>
+        </section>
+
+        <!-- Favorite Places Section -->
+        <section aria-labelledby="favorite-places-section">
+            <h2 id="favorite-places-section">My Favorite Places</h2>
+            <ul id="places-list"></ul>
+            <p>This is a list of my favorite places. Traveling has always been my favorite activity, so capturing all these moments is a blessing.</p>
+            
+            <!-- Places List -->
+            <section class="list">
+                <article class="places">
+                    <img src="gree.jpeg" alt="A scenic view of Greece">
+                    <p>Greece</p>
+                </article>
+                <article class="places">
+                    <img src="paris.jpeg" alt="The Eiffel Tower in Paris">
+                    <p>Paris</p>
+                </article>
+                <article class="places">
+                    <img src="mombasa.jpeg" alt="A beach in Mombasa">
+                    <p>Mombasa</p>
+                </article>
+                <article class="places">
+                    <img src="zanzibar.jpeg" alt="A beautiful view of Zanzibar">
+                    <p>Zanzibar</p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <h3>&copy; 2025 My Favorite Places</h3>
+    </footer>
+    <script src="src/index.js"></script>
+</body>
+</html>
+
