@@ -1,6 +1,6 @@
 
 .body {
-    background-color: #e0f7fa; /* Softer aqua color */
+    background-color: #e0f7fa; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
     border: 1px solid #333;
     border-radius: 10px;
     text-align: center;
-    background-color: #ffe4c4; /* Bisque */
+    background-color: #ffe4c4;
     padding: 10px;
     margin-top: 20px;
 }
