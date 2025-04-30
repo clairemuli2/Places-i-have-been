@@ -1,4 +1,4 @@
-/* General body styling */
+
 .body {
     background-color: #e0f7fa; /* Softer aqua color */
     font-family: Arial, sans-serif;
@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-/* Footer styling */
 .footer {
     border: 1px solid #333;
     border-radius: 10px;
@@ -15,8 +14,6 @@
     padding: 10px;
     margin-top: 20px;
 }
-
-/* List styling */
 .list {
     display: flex;
     justify-content: space-evenly;
@@ -24,7 +21,6 @@
     gap: 20px;
 }
 
-/* Places styling */
 .places {
     border: 1px solid #333;
     padding: 15px;
